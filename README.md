@@ -33,36 +33,6 @@ Este projeto é uma simulação de um sistema bancário em Python. Ele possui cl
 - Biblioteca `pytz` para manipulação de datas e horas no fuso horário de São Paulo.
 - Biblioteca `random` para geração de números aleatórios (como número da conta e do cartão de crédito).
 
-## 🖼️ **Diagrama de Classes**
-
-Aqui está um diagrama simplificado da estrutura de classes:
-
-              +--------------------+
-              |      Agencia       |
-              +--------------------+
-              | - telefone         |
-              | - cnpj             |
-              | - numero           |
-              | - caixa            |
-              +--------------------+
-              | + verificar_caixa() |
-              | + emprestar_dinheiro()|
-              | + adicionar_cliente()|
-              +--------------------+
-                      |
-         +------------+------------+
-         |                         |
-+-------------------+      +-------------------+
-|     Agencia      |      |   AgenciaComum    |
-|     Virtual      |      |                   |
-+-------------------+      +-------------------+
-         |                         |
-+-------------------+      +-------------------+
-|    CartaoCredito  |      |   ContaCorrente   |
-+-------------------+      +-------------------+
-
-
-
 ### 🎯 ** Objetivo do Projeto **
 
 - O objetivo desse projeto é praticar a programação orientada a objetos em Python, criando um sistema bancário simples, mas que simula as operações essenciais de um banco. O projeto também visa entender como criar e gerenciar classes e objetos de forma eficiente.
